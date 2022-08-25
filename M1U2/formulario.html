@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario de contacto</title>
+	<meta charset="utf-8">
+</head>
+<body>
+    <header>
+	 <h1>Formulario de contacto</h1>
+	</header>
+
+<form>
+   <h3>Completar con sus datos la siguiente planilla:</h3>
+
+  <label id="form-option">Eres hombre?</label>
+	<input type="checkbox" name="form-option">
+<br>
+  <label id="form-option">Eres mujer?</label>
+	<input type="checkbox" name="form-option">
+
+<br>
+  <p>Nombre completo:</p>
+	<input type="text" name="form-option">
+	<button>Enviar</button>
+<br>
+  <p>Apellido completo:</p>
+   <input type="text" name="apellido-pers">
+   <button>Enviar</button>
+
+<p>
+ 	<label for="selection">Estudios</label>
+       <select name="selection">
+    	 <option>Primario</option>
+    	 <option>Secundario finalizado</option>
+    	 <option>Terciario</option>
+    	<option>Universitario</option>
+    	<option>Doctorado</option>
+      </select>
+</p>
+
+<p>Mail:</p>
+   <input type="email">
+   <button type="submit">OK</button>
+
+<h4>Qué hobbies te gusta realizar?</h4>
+   <ul>
+    <li>
+        <input type="checkbox" name="hobbies[]"  value="danza" id="danza">
+        <label for="danza">La danza, bailar</label>
+    </li>
+    <li>
+        <input type="checkbox" name="hobbies[]"  value="gastronomia" id="gastronomia">
+        <label for="gastronomia">Cocinar, la gastronomía</label>
+    </li>
+    <li>
+        <input type="checkbox" name="hobbies[]"  value="videojuegos" id="videojuegos">
+        <label for="videojuegos">Los videojuegos</label>
+    </li>
+    <li>
+        <input type="checkbox" name="hobbies[]"  value="gym" id="gym">
+        <label for="gym">Realizar ejercicio físico</label>
+    </li>
+    <li>
+   	    <input type="checkbox" name="hobbies[]"  value="canto" id="canto">
+        <label for="canto">Cantar</label>
+    </li>
+   </ul>
+
+
+<h3>Por último...</h3>
+   <h4>Completar con su número de celular:</h4>
+
+    <input type="text" name="number-phone">
+    <button>Enviar</button>
+
+<h5>
+	<label for="comentarios">Comentarios</label><br>
+	<textarea name="comentarios"></textarea>
+</h5>
+
+<h5>
+	<input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+</h5>
+</form>
+
+</body>
+</html>
